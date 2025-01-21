@@ -10,17 +10,18 @@ public class Types{
         //char - 2 bytes   a,b,c,d
         //boolean - 1 bit true / false
 
-        // byte  age = 30;
-        // int phone = 95611545929;
-        // long phone2 = 95611545929L;
-        // float pi = 3.14f;
-        // char letter = '@';
-        // boolean isAdult = true;
+        byte  age = 30;
+        int phone = 95611545929;
+        long phone2 = 95611545929L;
+        float pi = 3.14f;
+        char letter = '@';
+        boolean isAdult = true;
 
 
     //////////NON-PRIMITIVE DATA TYPES//////////
 
-    String name = "shreyash";
+    String name = new String("apu");
+    String  frined =  new String( "ahreyash")
     System.out.println(name.length());
 
     }
